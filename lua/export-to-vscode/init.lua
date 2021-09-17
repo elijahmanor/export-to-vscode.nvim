@@ -4,7 +4,6 @@ local function launch()
 
   for _, buffer in ipairs(buffers) do
     if (vim.api.nvim_buf_is_valid(buffer) and vim.bo[buffer].buflisted) then
-      print( unpack( vim.api.nvim_buf_stats(buffer) ) )
       local fileName = vim.api.nvim_buf_get_name(buffer)
 
       if (vim.api.nvim_get_current_buf() == buffer) then
