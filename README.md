@@ -1,12 +1,17 @@
 # export-to-vscode.nvim
 
+![Demo.gif](https://user-images.githubusercontent.com/86454/133836554-43706f03-ef1a-4a87-8d11-a606a53d8845.gif)
+
 ## About
 
-This is a Neovim plugin will take all of the active buffers and open them as
-tabs in VS Code. It will make sure the active buffer from Neovim is the active
-tab in VS Code with the same line and cursor position focus.
+This is a Neovim plugin that will take all of the active buffers and open them
+as tabs in VS Code. It will make sure the active buffer from Neovim is the
+active tab in VS Code with the same line and cursor position focus.
 
-![Demo.gif](https://user-images.githubusercontent.com/86454/133836554-43706f03-ef1a-4a87-8d11-a606a53d8845.gif)
+If you you would like a code walkthrough explaining how the code works (before
+it was extracted into this plugin), check out the associated [Export Neovim
+Bufffers to VS Code](https://elijahmanor.com/blog/export-neovim-to-vscode) blog
+post.
 
 ## Requirements
 
